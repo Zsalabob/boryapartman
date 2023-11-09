@@ -1,0 +1,42 @@
+/* Stíluslap a szövegek középre igazításához */
+body {
+    text-align: center; /* A testület középre igazítja a szöveget */
+}
+
+ h2, p {
+    text-align: center; /* A címek és bekezdések szövegét balra igazítjuk újra */
+}
+    /* Stíluslap a cím formázásához */
+h1 {
+    text-align: center; /* A cím szövegét középre igazítjuk */
+    font-size: 100px;
+    margin-bottom: 3px;
+}
+/* Stíluslap a piros vonalhoz */
+.red-line {
+    width: 70%; /* Vonal szélessége 60% a képernyő szélességéhez képest */
+    border-top: 15px solid red; /* Piros vonal a felső részen */
+    margin: 0 auto; /* Középre igazítás vízszintesen */
+    
+}
+
+/* Stíluslap a képek középre igazításához és lekerekített szélekhez */
+.image-container img {
+    display: inline-block;
+    margin: 10px; /* Opcionális térköz a képek között */
+    border-radius: 10px; /* Lekerekített szélek 10 pixel sugarúak */
+    text-align: center;
+}
+body {
+    background-color: rgb(243, 243, 243); /* Világos szürke háttérszín */
+    font-family: "Arial Rounded MT", sans-serif; /* Betűtípus beállítása "Arial Rounded MT Bold"-ra */
+}
+/* Stíluslap a konténer középre igazításához */
+.container {
+    width: 70%; /* A konténer szélessége 80% a képernyő szélességéhez képest */
+    margin: 0 auto; /* Középre igazítás vízszintesen */
+    padding: 20px; /* Belső térköz a konténer körül */
+}
+
+
+
